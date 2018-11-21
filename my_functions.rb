@@ -10,10 +10,12 @@ total = 0
 return total
 end
 
-def find_item(array, search)
-for house in array
-  if house == search
-    return true
+def find_item(array, search) # passing in an array and a search item
+  found = false
+for house in array # for this item in the array
+  if house == search # is it equal to search
+    found = true # and if it is, set that to true
   end
 end
+return found
 end

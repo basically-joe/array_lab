@@ -19,3 +19,9 @@ for house in array # for this item in the array
 end
 return found
 end
+
+def get_first_key(hash)
+ for element in hash
+   return element[0]
+ end
+end
